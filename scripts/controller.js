@@ -1,6 +1,6 @@
 var unspoil = function() {
   var searchTerm = $('#searchTxt').val();
-  alert(searchTerm)
+  alert(searchTerm);
 }
 
 $('#content-main-heading').append("Keyword: <input type='text' id='searchTxt' name='term'></input> <br>");
