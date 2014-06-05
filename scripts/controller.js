@@ -4,4 +4,4 @@ var unspoil = function() {
 }
 
 $('#content-main-heading').append("Keyword: <input type='text' id='searchTxt' name='term'></input> <br>");
-$('#content-main-heading').append("<input type='button' value='Unspoil' onclick='unspoil();'></input>");
+//$('#content-main-heading').append("<input type='button' value='Unspoil' onclick='unspoil();'></input>");
