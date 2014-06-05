@@ -1,0 +1,9 @@
+javascript: (function() {
+  var jquery = document.createElement('script');
+  jquery.src = "https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js";
+  document.getElementByTagName('head')[0].appendChild(jquery);
+
+  var controller = document.createElement('script');
+  controller.setAttribute('src', '');
+  document.body.appendChild(controller);
+}());
