@@ -4,6 +4,6 @@ javascript: (function() {
   document.getElementByTagName('head')[0].appendChild(jquery);
 
   var controller = document.createElement('script');
-  controller.setAttribute('src', '');
+  controller.setAttribute('src', 'https://raw.githubusercontent.com/igandhi/NoMoreSpoilers/master/scripts/controller.js');
   document.body.appendChild(controller);
 }());
