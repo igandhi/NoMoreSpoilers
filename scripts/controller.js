@@ -3,7 +3,7 @@ var unspoil = function() {
   $(".tweet-text:contains(term)".each(function(index) {
     $(this).text('SPOILER!');
   });
-}
+};
 
 var testUnspoil = function() {
   var term = $('#searchTxt').val();
