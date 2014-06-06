@@ -5,7 +5,8 @@ var unspoil = function() {
 }
 
 var testUnspoil = function() {
-  alert($('#searchTxt').val());
+  var term = $('#searchTerm').val();
+  alert(term);
 };
 
 $('#content-main-heading').append(" Keyword: <input type='text' id='searchTxt' name='term'></input> <br>");
