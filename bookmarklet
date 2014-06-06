@@ -1,7 +1,7 @@
 javascript: (function() {
-  var jquery = document.createElement('script');
-  jquery.src = "https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js";
-  document.getElementByTagName('head')[0].appendChild(jquery);
+  var jq = document.createElement('script');
+  jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js";
+  document.head.appendChild(jq);
 
   var controller = document.createElement('script');
   controller.setAttribute('src', 'https://raw.githubusercontent.com/igandhi/NoMoreSpoilers/master/scripts/controller.js');
