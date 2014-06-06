@@ -5,7 +5,7 @@ var unspoil = function() {
 }
 
 var testUnspoil = function() {
-  var term = $('#searchTerm').val();
+  var term = $('#searchTxt').val();
   alert(term);
 };
 
