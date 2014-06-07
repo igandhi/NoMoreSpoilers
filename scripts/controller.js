@@ -1,4 +1,4 @@
-$.expr[":"].contains = $.expr.createPseudo(function(arg) {
+jQuery.expr[":"].Contains = jQuery.expr.createPseudo(function(arg) {
   return function(elem) {
     return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
   };
@@ -7,7 +7,7 @@ $.expr[":"].contains = $.expr.createPseudo(function(arg) {
 
 var unspoil = function() {
   var term = $('#searchTxt').val();
-  $(".tweet-text:contains('"+term+"')").each(function() {
+  $(".tweet-text:Contains('"+term+"')").each(function() {
     $(this).text('SPOILER!');
   });
 };
