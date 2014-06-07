@@ -1,6 +1,6 @@
 var unspoil = function() {
   var term = $('#searchTxt').val();
-  $(".tweet-text").each(function() {
+  $(".tweet-text:contains('down')").each(function() {
     $(this).text('SPOILER!');
   });
 };
