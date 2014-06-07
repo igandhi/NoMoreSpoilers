@@ -1,13 +1,8 @@
 var unspoil = function() {
   var term = $('#searchTxt').val();
-  $(".tweet-text:contains(term)").each(function(index) {
+  $(".tweet-text").each(function() {
     $(this).text('SPOILER!');
   });
-};
-
-var testUnspoil = function() {
-  var term = $('#searchTxt').val();
-  alert(term);
 };
 
 $('#content-main-heading').append(" Keyword: <input type='text' id='searchTxt' name='term'></input> <br>");
