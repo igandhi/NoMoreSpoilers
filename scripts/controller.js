@@ -5,5 +5,5 @@ var unspoil = function() {
   });
 };
 
-$('#global-actions').append("<li> Keyword: <input type='text' id='searchTxt' name='term'></input> <br></li>");
+//$('#global-actions').append("<li> Keyword: <input type='text' id='searchTxt' name='term'></input> <br></li>");
 $('#global-actions').append("<li><input type='button' value='Unspoil' onclick='unspoil();'></input></li>");
