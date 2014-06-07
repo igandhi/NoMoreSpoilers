@@ -4,7 +4,6 @@ jQuery.expr[":"].Contains = jQuery.expr.createPseudo(function(arg) {
   };
 });
 
-
 var unspoil = function() {
   var term = $('#searchTxt').val();
   $(".tweet-text:Contains('"+term+"')").each(function() {
